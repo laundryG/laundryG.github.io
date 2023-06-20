@@ -66,7 +66,7 @@ var metLightbox = {
          }, 50);
       }
 
-      propLightbox.modal.innerHTML += '<i id="cerrar_modal" class="fa fa-times" aria-hidden="true"></i>';
+      propLightbox.modal.innerHTML += '<img src="x.png" alt="" id="cerrar_modal" class="fa fa-times" aria-hidden="true">';
       propLightbox.cerrarModal = document.getElementById('cerrar_modal');
       propLightbox.cerrarModal.addEventListener('click', metLightbox.cerrarModal);
 
